@@ -1,0 +1,80 @@
+{
+  "__version__": "1.0.6",
+  "layer": [
+    {
+      "name": "Default",
+      "value": 1
+    },
+    {
+      "name": "bacon",
+      "value": 2
+    },
+    {
+      "name": "pan",
+      "value": 4
+    },
+    {
+      "name": "statue",
+      "value": 8
+    },
+    {
+      "name": "blob",
+      "value": 16
+    },
+    {
+      "name": "SSS_UI_2D",
+      "value": 32
+    },
+    {
+      "name": "Main",
+      "value": 64
+    },
+    {
+      "name": "paopao",
+      "value": 128
+    },
+    {
+      "name": "shengzi",
+      "value": 256
+    }
+  ],
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1600,
+      "fitWidth": true,
+      "fitHeight": false
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Default"
+      },
+      {
+        "index": 2,
+        "name": "shengzi"
+      },
+      {
+        "index": 3,
+        "name": "paopao"
+      },
+      {
+        "index": 4,
+        "name": "Main"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 31,
+      "1": 31,
+      "2": 15,
+      "3": 31,
+      "4": 27
+    },
+    "gravity": {
+      "y": -980
+    }
+  },
+  "custom_joint_texture_layouts": []
+}
